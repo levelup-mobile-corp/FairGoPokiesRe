@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52A692B92C78A8F6009CBA3D /* FairGoPokiesReApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692B82C78A8F6009CBA3D /* FairGoPokiesReApp.swift */; };
+		52A692BB2C78A8F6009CBA3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692BA2C78A8F6009CBA3D /* ContentView.swift */; };
+		52A692C02C78A8F8009CBA3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A692BF2C78A8F8009CBA3D /* Preview Assets.xcassets */; };
+		52A692F32C78A920009CBA3D /* JosefinSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A692C72C78A920009CBA3D /* JosefinSans-Bold.ttf */; };
+		52A692F42C78A920009CBA3D /* JosefinSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A692C82C78A920009CBA3D /* JosefinSans-Medium.ttf */; };
+		52A692F52C78A920009CBA3D /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A692C92C78A920009CBA3D /* JosefinSans-Regular.ttf */; };
+		52A692F62C78A920009CBA3D /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A692CA2C78A920009CBA3D /* JosefinSans-SemiBold.ttf */; };
+		52A692F72C78A920009CBA3D /* LondrinaSolid-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A692CB2C78A920009CBA3D /* LondrinaSolid-Regular.ttf */; };
+		52A692F82C78A920009CBA3D /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692CD2C78A920009CBA3D /* Balance.swift */; };
+		52A692F92C78A920009CBA3D /* Bonus.json in Resources */ = {isa = PBXBuildFile; fileRef = 52A692CE2C78A920009CBA3D /* Bonus.json */; };
+		52A692FA2C78A920009CBA3D /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692CF2C78A920009CBA3D /* Button.swift */; };
+		52A692FB2C78A920009CBA3D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692D02C78A920009CBA3D /* Colors.swift */; };
+		52A692FC2C78A920009CBA3D /* CustomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692D12C78A920009CBA3D /* CustomProgressBar.swift */; };
+		52A692FD2C78A920009CBA3D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692D22C78A920009CBA3D /* ImagePicker.swift */; };
+		52A692FE2C78A920009CBA3D /* Loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 52A692D32C78A920009CBA3D /* Loader.json */; };
+		52A692FF2C78A920009CBA3D /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692D42C78A920009CBA3D /* SoundManager.swift */; };
+		52A693002C78A920009CBA3D /* TopMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692D52C78A920009CBA3D /* TopMessages.swift */; };
+		52A693012C78A920009CBA3D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692D72C78A920009CBA3D /* MainView.swift */; };
+		52A693022C78A920009CBA3D /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692D82C78A920009CBA3D /* MainVM.swift */; };
+		52A693032C78A920009CBA3D /* BrainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692DA2C78A920009CBA3D /* BrainView.swift */; };
+		52A693042C78A920009CBA3D /* BrainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692DB2C78A920009CBA3D /* BrainVM.swift */; };
+		52A693052C78A920009CBA3D /* EnergyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692DD2C78A920009CBA3D /* EnergyScene.swift */; };
+		52A693062C78A920009CBA3D /* EnergyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692DE2C78A920009CBA3D /* EnergyView.swift */; };
+		52A693072C78A920009CBA3D /* EnergyVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692DF2C78A920009CBA3D /* EnergyVM.swift */; };
+		52A693082C78A920009CBA3D /* FoodScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692E12C78A920009CBA3D /* FoodScene.swift */; };
+		52A693092C78A920009CBA3D /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692E22C78A920009CBA3D /* FoodView.swift */; };
+		52A6930A2C78A920009CBA3D /* FoodVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692E32C78A920009CBA3D /* FoodVM.swift */; };
+		52A6930B2C78A920009CBA3D /* BonusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692E62C78A920009CBA3D /* BonusView.swift */; };
+		52A6930C2C78A920009CBA3D /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692E72C78A920009CBA3D /* PrivacyView.swift */; };
+		52A6930D2C78A920009CBA3D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692E82C78A920009CBA3D /* Settings.swift */; };
+		52A6930E2C78A920009CBA3D /* SettingsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692E92C78A920009CBA3D /* SettingsVM.swift */; };
+		52A6930F2C78A920009CBA3D /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692EB2C78A920009CBA3D /* StoreView.swift */; };
+		52A693102C78A920009CBA3D /* StoreVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692EC2C78A920009CBA3D /* StoreVM.swift */; };
+		52A693112C78A920009CBA3D /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692EE2C78A920009CBA3D /* TutorialView.swift */; };
+		52A693122C78A920009CBA3D /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A692F02C78A920009CBA3D /* Loader.swift */; };
+		52A693152C78A94F009CBA3D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 52A693142C78A94F009CBA3D /* Lottie */; };
+		52A693182C78A95F009CBA3D /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 52A693172C78A95F009CBA3D /* SwiftMessages */; };
+		52A6931B2C78A96B009CBA3D /* SwiftyStoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = 52A6931A2C78A96B009CBA3D /* SwiftyStoreKit */; };
+		52A6931E2C78AABF009CBA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A6931D2C78AABF009CBA3D /* Assets.xcassets */; };
+		52A693202C78ACDA009CBA3D /* backgroundMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 52A6931F2C78ACDA009CBA3D /* backgroundMusic.wav */; };
+		52A693232C78AF15009CBA3D /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 52A693222C78AF14009CBA3D /* click.wav */; };
+		52A693252C78AF8C009CBA3D /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A693242C78AF8C009CBA3D /* HapticManager.swift */; };
+		52A693272C78B5B1009CBA3D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 52A693262C78B5B1009CBA3D /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52A692B52C78A8F6009CBA3D /* FairGoPokiesRe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FairGoPokiesRe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A692B82C78A8F6009CBA3D /* FairGoPokiesReApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairGoPokiesReApp.swift; sourceTree = "<group>"; };
+		52A692BA2C78A8F6009CBA3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52A692BF2C78A8F8009CBA3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52A692C72C78A920009CBA3D /* JosefinSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Bold.ttf"; sourceTree = "<group>"; };
+		52A692C82C78A920009CBA3D /* JosefinSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Medium.ttf"; sourceTree = "<group>"; };
+		52A692C92C78A920009CBA3D /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		52A692CA2C78A920009CBA3D /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		52A692CB2C78A920009CBA3D /* LondrinaSolid-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LondrinaSolid-Regular.ttf"; sourceTree = "<group>"; };
+		52A692CD2C78A920009CBA3D /* Balance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		52A692CE2C78A920009CBA3D /* Bonus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Bonus.json; sourceTree = "<group>"; };
+		52A692CF2C78A920009CBA3D /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		52A692D02C78A920009CBA3D /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		52A692D12C78A920009CBA3D /* CustomProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomProgressBar.swift; sourceTree = "<group>"; };
+		52A692D22C78A920009CBA3D /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		52A692D32C78A920009CBA3D /* Loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader.json; sourceTree = "<group>"; };
+		52A692D42C78A920009CBA3D /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		52A692D52C78A920009CBA3D /* TopMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMessages.swift; sourceTree = "<group>"; };
+		52A692D72C78A920009CBA3D /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		52A692D82C78A920009CBA3D /* MainVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
+		52A692DA2C78A920009CBA3D /* BrainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrainView.swift; sourceTree = "<group>"; };
+		52A692DB2C78A920009CBA3D /* BrainVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrainVM.swift; sourceTree = "<group>"; };
+		52A692DD2C78A920009CBA3D /* EnergyScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnergyScene.swift; sourceTree = "<group>"; };
+		52A692DE2C78A920009CBA3D /* EnergyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnergyView.swift; sourceTree = "<group>"; };
+		52A692DF2C78A920009CBA3D /* EnergyVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnergyVM.swift; sourceTree = "<group>"; };
+		52A692E12C78A920009CBA3D /* FoodScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodScene.swift; sourceTree = "<group>"; };
+		52A692E22C78A920009CBA3D /* FoodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		52A692E32C78A920009CBA3D /* FoodVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodVM.swift; sourceTree = "<group>"; };
+		52A692E62C78A920009CBA3D /* BonusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonusView.swift; sourceTree = "<group>"; };
+		52A692E72C78A920009CBA3D /* PrivacyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		52A692E82C78A920009CBA3D /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		52A692E92C78A920009CBA3D /* SettingsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVM.swift; sourceTree = "<group>"; };
+		52A692EB2C78A920009CBA3D /* StoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		52A692EC2C78A920009CBA3D /* StoreVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreVM.swift; sourceTree = "<group>"; };
+		52A692EE2C78A920009CBA3D /* TutorialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		52A692F02C78A920009CBA3D /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		52A6931D2C78AABF009CBA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52A6931F2C78ACDA009CBA3D /* backgroundMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = backgroundMusic.wav; sourceTree = "<group>"; };
+		52A693212C78AEB8009CBA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		52A693222C78AF14009CBA3D /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		52A693242C78AF8C009CBA3D /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		52A693262C78B5B1009CBA3D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A692B22C78A8F6009CBA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A6931B2C78A96B009CBA3D /* SwiftyStoreKit in Frameworks */,
+				52A693182C78A95F009CBA3D /* SwiftMessages in Frameworks */,
+				52A693152C78A94F009CBA3D /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52A692AC2C78A8F6009CBA3D = {
+			isa = PBXGroup;
+			children = (
+				52A692B72C78A8F6009CBA3D /* FairGoPokiesRe */,
+				52A692B62C78A8F6009CBA3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52A692B62C78A8F6009CBA3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A692B52C78A8F6009CBA3D /* FairGoPokiesRe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A692B72C78A8F6009CBA3D /* FairGoPokiesRe */ = {
+			isa = PBXGroup;
+			children = (
+				52A693262C78B5B1009CBA3D /* PrivacyInfo.xcprivacy */,
+				52A693222C78AF14009CBA3D /* click.wav */,
+				52A693212C78AEB8009CBA3D /* Info.plist */,
+				52A6931F2C78ACDA009CBA3D /* backgroundMusic.wav */,
+				52A6931D2C78AABF009CBA3D /* Assets.xcassets */,
+				52A692D62C78A920009CBA3D /* Helpers */,
+				52A692F12C78A920009CBA3D /* View */,
+				52A692B82C78A8F6009CBA3D /* FairGoPokiesReApp.swift */,
+				52A692BA2C78A8F6009CBA3D /* ContentView.swift */,
+				52A692BE2C78A8F8009CBA3D /* Preview Content */,
+			);
+			path = FairGoPokiesRe;
+			sourceTree = "<group>";
+		};
+		52A692BE2C78A8F8009CBA3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52A692BF2C78A8F8009CBA3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52A692CC2C78A920009CBA3D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52A692C72C78A920009CBA3D /* JosefinSans-Bold.ttf */,
+				52A692C82C78A920009CBA3D /* JosefinSans-Medium.ttf */,
+				52A692C92C78A920009CBA3D /* JosefinSans-Regular.ttf */,
+				52A692CA2C78A920009CBA3D /* JosefinSans-SemiBold.ttf */,
+				52A692CB2C78A920009CBA3D /* LondrinaSolid-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		52A692D62C78A920009CBA3D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				52A692CC2C78A920009CBA3D /* Fonts */,
+				52A692CD2C78A920009CBA3D /* Balance.swift */,
+				52A692CE2C78A920009CBA3D /* Bonus.json */,
+				52A692CF2C78A920009CBA3D /* Button.swift */,
+				52A692D02C78A920009CBA3D /* Colors.swift */,
+				52A692D12C78A920009CBA3D /* CustomProgressBar.swift */,
+				52A692D22C78A920009CBA3D /* ImagePicker.swift */,
+				52A692D32C78A920009CBA3D /* Loader.json */,
+				52A692D42C78A920009CBA3D /* SoundManager.swift */,
+				52A692D52C78A920009CBA3D /* TopMessages.swift */,
+				52A693242C78AF8C009CBA3D /* HapticManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		52A692D92C78A920009CBA3D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				52A692D72C78A920009CBA3D /* MainView.swift */,
+				52A692D82C78A920009CBA3D /* MainVM.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		52A692DC2C78A920009CBA3D /* Brain */ = {
+			isa = PBXGroup;
+			children = (
+				52A692DA2C78A920009CBA3D /* BrainView.swift */,
+				52A692DB2C78A920009CBA3D /* BrainVM.swift */,
+			);
+			path = Brain;
+			sourceTree = "<group>";
+		};
+		52A692E02C78A920009CBA3D /* Energy */ = {
+			isa = PBXGroup;
+			children = (
+				52A692DD2C78A920009CBA3D /* EnergyScene.swift */,
+				52A692DE2C78A920009CBA3D /* EnergyView.swift */,
+				52A692DF2C78A920009CBA3D /* EnergyVM.swift */,
+			);
+			path = Energy;
+			sourceTree = "<group>";
+		};
+		52A692E42C78A920009CBA3D /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				52A692E12C78A920009CBA3D /* FoodScene.swift */,
+				52A692E22C78A920009CBA3D /* FoodView.swift */,
+				52A692E32C78A920009CBA3D /* FoodVM.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		52A692E52C78A920009CBA3D /* MiniGames */ = {
+			isa = PBXGroup;
+			children = (
+				52A692DC2C78A920009CBA3D /* Brain */,
+				52A692E02C78A920009CBA3D /* Energy */,
+				52A692E42C78A920009CBA3D /* Food */,
+			);
+			path = MiniGames;
+			sourceTree = "<group>";
+		};
+		52A692EA2C78A920009CBA3D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				52A692E62C78A920009CBA3D /* BonusView.swift */,
+				52A692E72C78A920009CBA3D /* PrivacyView.swift */,
+				52A692E82C78A920009CBA3D /* Settings.swift */,
+				52A692E92C78A920009CBA3D /* SettingsVM.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		52A692ED2C78A920009CBA3D /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				52A692EB2C78A920009CBA3D /* StoreView.swift */,
+				52A692EC2C78A920009CBA3D /* StoreVM.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		52A692EF2C78A920009CBA3D /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				52A692EE2C78A920009CBA3D /* TutorialView.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		52A692F12C78A920009CBA3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52A692D92C78A920009CBA3D /* Main */,
+				52A692E52C78A920009CBA3D /* MiniGames */,
+				52A692EA2C78A920009CBA3D /* Settings */,
+				52A692ED2C78A920009CBA3D /* Store */,
+				52A692EF2C78A920009CBA3D /* Tutorial */,
+				52A692F02C78A920009CBA3D /* Loader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A692B42C78A8F6009CBA3D /* FairGoPokiesRe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A692C32C78A8F8009CBA3D /* Build configuration list for PBXNativeTarget "FairGoPokiesRe" */;
+			buildPhases = (
+				52A692B12C78A8F6009CBA3D /* Sources */,
+				52A692B22C78A8F6009CBA3D /* Frameworks */,
+				52A692B32C78A8F6009CBA3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FairGoPokiesRe;
+			packageProductDependencies = (
+				52A693142C78A94F009CBA3D /* Lottie */,
+				52A693172C78A95F009CBA3D /* SwiftMessages */,
+				52A6931A2C78A96B009CBA3D /* SwiftyStoreKit */,
+			);
+			productName = FairGoPokiesRe;
+			productReference = 52A692B52C78A8F6009CBA3D /* FairGoPokiesRe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A692AD2C78A8F6009CBA3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					52A692B42C78A8F6009CBA3D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 52A692B02C78A8F6009CBA3D /* Build configuration list for PBXProject "FairGoPokiesRe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52A692AC2C78A8F6009CBA3D;
+			packageReferences = (
+				52A693132C78A94F009CBA3D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				52A693162C78A95F009CBA3D /* XCRemoteSwiftPackageReference "SwiftMessages" */,
+				52A693192C78A96B009CBA3D /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */,
+			);
+			productRefGroup = 52A692B62C78A8F6009CBA3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A692B42C78A8F6009CBA3D /* FairGoPokiesRe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52A692B32C78A8F6009CBA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A692F62C78A920009CBA3D /* JosefinSans-SemiBold.ttf in Resources */,
+				52A692C02C78A8F8009CBA3D /* Preview Assets.xcassets in Resources */,
+				52A692F52C78A920009CBA3D /* JosefinSans-Regular.ttf in Resources */,
+				52A692F92C78A920009CBA3D /* Bonus.json in Resources */,
+				52A692FE2C78A920009CBA3D /* Loader.json in Resources */,
+				52A693232C78AF15009CBA3D /* click.wav in Resources */,
+				52A693272C78B5B1009CBA3D /* PrivacyInfo.xcprivacy in Resources */,
+				52A692F32C78A920009CBA3D /* JosefinSans-Bold.ttf in Resources */,
+				52A693202C78ACDA009CBA3D /* backgroundMusic.wav in Resources */,
+				52A692F42C78A920009CBA3D /* JosefinSans-Medium.ttf in Resources */,
+				52A6931E2C78AABF009CBA3D /* Assets.xcassets in Resources */,
+				52A692F72C78A920009CBA3D /* LondrinaSolid-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A692B12C78A8F6009CBA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A693092C78A920009CBA3D /* FoodView.swift in Sources */,
+				52A692BB2C78A8F6009CBA3D /* ContentView.swift in Sources */,
+				52A693252C78AF8C009CBA3D /* HapticManager.swift in Sources */,
+				52A692FF2C78A920009CBA3D /* SoundManager.swift in Sources */,
+				52A693002C78A920009CBA3D /* TopMessages.swift in Sources */,
+				52A693012C78A920009CBA3D /* MainView.swift in Sources */,
+				52A6930C2C78A920009CBA3D /* PrivacyView.swift in Sources */,
+				52A693052C78A920009CBA3D /* EnergyScene.swift in Sources */,
+				52A692FC2C78A920009CBA3D /* CustomProgressBar.swift in Sources */,
+				52A693122C78A920009CBA3D /* Loader.swift in Sources */,
+				52A693072C78A920009CBA3D /* EnergyVM.swift in Sources */,
+				52A693032C78A920009CBA3D /* BrainView.swift in Sources */,
+				52A6930F2C78A920009CBA3D /* StoreView.swift in Sources */,
+				52A693082C78A920009CBA3D /* FoodScene.swift in Sources */,
+				52A692FB2C78A920009CBA3D /* Colors.swift in Sources */,
+				52A692FD2C78A920009CBA3D /* ImagePicker.swift in Sources */,
+				52A693112C78A920009CBA3D /* TutorialView.swift in Sources */,
+				52A6930B2C78A920009CBA3D /* BonusView.swift in Sources */,
+				52A693022C78A920009CBA3D /* MainVM.swift in Sources */,
+				52A693042C78A920009CBA3D /* BrainVM.swift in Sources */,
+				52A6930A2C78A920009CBA3D /* FoodVM.swift in Sources */,
+				52A692F82C78A920009CBA3D /* Balance.swift in Sources */,
+				52A6930E2C78A920009CBA3D /* SettingsVM.swift in Sources */,
+				52A692B92C78A8F6009CBA3D /* FairGoPokiesReApp.swift in Sources */,
+				52A692FA2C78A920009CBA3D /* Button.swift in Sources */,
+				52A6930D2C78A920009CBA3D /* Settings.swift in Sources */,
+				52A693062C78A920009CBA3D /* EnergyView.swift in Sources */,
+				52A693102C78A920009CBA3D /* StoreVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52A692C12C78A8F8009CBA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52A692C22C78A8F8009CBA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52A692C42C78A8F8009CBA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FairGoPokiesRe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FairGoPokiesRe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oi.FairGoPokiesRe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		52A692C52C78A8F8009CBA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FairGoPokiesRe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FairGoPokiesRe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oi.FairGoPokiesRe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A692B02C78A8F6009CBA3D /* Build configuration list for PBXProject "FairGoPokiesRe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A692C12C78A8F8009CBA3D /* Debug */,
+				52A692C22C78A8F8009CBA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A692C32C78A8F8009CBA3D /* Build configuration list for PBXNativeTarget "FairGoPokiesRe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A692C42C78A8F8009CBA3D /* Debug */,
+				52A692C52C78A8F8009CBA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52A693132C78A94F009CBA3D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		52A693162C78A95F009CBA3D /* XCRemoteSwiftPackageReference "SwiftMessages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftKickMobile/SwiftMessages";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		52A693192C78A96B009CBA3D /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bizz84/SwiftyStoreKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.16.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52A693142C78A94F009CBA3D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52A693132C78A94F009CBA3D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		52A693172C78A95F009CBA3D /* SwiftMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52A693162C78A95F009CBA3D /* XCRemoteSwiftPackageReference "SwiftMessages" */;
+			productName = SwiftMessages;
+		};
+		52A6931A2C78A96B009CBA3D /* SwiftyStoreKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52A693192C78A96B009CBA3D /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */;
+			productName = SwiftyStoreKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 52A692AD2C78A8F6009CBA3D /* Project object */;
+}
