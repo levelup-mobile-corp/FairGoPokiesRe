@@ -15,7 +15,7 @@ struct PrivacyView: View {
             VStack(alignment: .leading, spacing: 20) {
                 Text("""
 
-        This privacy policy applies to the SkyCrown App - Koala! app (hereby referred to as "Application") for mobile devices that was created by Hassan Sajjad (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+        This privacy policy applies to the Koala Quest: Grow & Play app (hereby referred to as "Application") for mobile devices that was created by Sk Foysal Hamid (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
 
 
         Information Collection and Use
@@ -35,11 +35,6 @@ For a better experience, while using the Application, the Service Provider may r
         Third Party Access
 Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
 
-Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
-1. Google Analytics for Firebase
-2. Firebase Crashlytics
-
-
 The Service Provider may disclose User Provided and Automatically Collected Information:
 - as required by law, such as to comply with a subpoena, or similar legal process;
 - when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
@@ -51,13 +46,13 @@ You can stop all collection of information by the Application easily by uninstal
 
 
         Data Retention Policy
-The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at message@monilyltd.tech and they will respond in a reasonable time.
+The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at mrskfoysalhamid01@gmail.com and they will respond in a reasonable time.
 
 
         Children
 The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
 
-The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourage parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider (message@monilyltd.tech) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries we may allow your parent or guardian to do so on your behalf).
+The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourage parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider (mrskfoysalhamid01@gmail.com) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries we may allow your parent or guardian to do so on your behalf).
 
 
         Security
@@ -68,7 +63,7 @@ The Service Provider is concerned about safeguarding the confidentiality of your
 This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
 
 
-This privacy policy is effective as of 2024-06-04
+This privacy policy is effective as of 2024-08-23
 
 
         Your Consent
@@ -76,7 +71,7 @@ By using the Application, you are consenting to the processing of your informati
 
 
         Contact Us
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at message@monilyltd.tech.
+If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at mrskfoysalhamid01@gmail.com.
 
 """)
             }
